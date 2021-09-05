@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flip Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="book">
+      <input type="checkbox" id="c1" />
+      <input type="checkbox" id="c2" />
+      <input type="checkbox" id="c3" />
+      <div id="cover"><img src="cardio.jpg" /></div>
+      <div class="flip-book">
+        <div class="flip" id="p1">
+          <div class="back">
+            <img src="weight.jpg" />
+            <label class="back-btn" for="c1">Back</label>
+          </div>
+          <div class="front">
+            <h2>CARDIO</h2>
+            <p>
+              Cardio is defined as any type of exercise that gets your heart rate up 
+			  and keeps it up for a prolonged period of time. Your respiratory system 
+			  will start working harder as you begin to breathe faster and more deeply. 
+			  Your blood vessels will expand to bring more oxygen to your muscles, and 
+			  your body will release natural painkillers (endorphins).
+            </p>
+            <label class="next-btn" for="c1">Next</label>
+          </div>
+        </div>
+        <div class="flip" id="p2">
+          <div class="back">
+            <img src="diet.jpg" />
+            <label class="back-btn" for="c2">Back</label>
+          </div>
+          <div class="front">
+            <h2>STRENGTH TRAINING</h2>
+            <p>
+              Strength training or resistance training involves the performance of 
+			  physical exercises which are designed to improve strength and endurance. 
+			  It is often associated with the use of weights. It can also incorporate 
+			  a variety of training techniques such as calisthenics, isometrics, and 
+			  plyometrics.
+            </p>
+            <label class="next-btn" for="c2">Next</label>
+          </div>
+        </div>
+
+        <div class="flip" id="p3">
+          <div class="back">
+            <label class="back-btn" for="c3">Back</label>
+          </div>
+          <div class="front">
+            <h2>DIET</h2>
+            <p>
+              A healthy diet is essential for good health and nutrition. It protects you 
+			  against many chronic noncommunicable diseases, such as heart disease, diabetes 
+			  and cancer. Eating a variety of foods and consuming less salt, sugars and 
+			  saturated and industrially-produced trans-fats, are essential for healthy diet.
+            </p>
+            <label class="next-btn" for="c3">Next</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
